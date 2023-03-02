@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <script src="https://kit.fontawesome.com/9f5c269ef4.js" crossorigin="anonymous"></script>
+    <style>
+        
+    
+    
+        h2 {
+
+            text-align: center;
+            text-decoration: underline;
+            animation: color 5s infinite;
+        }
+        body{
+            font-size: 18px;
+        }
+
+        @keyframes color {
+            0% {
+                color: black;
+            }
+
+            10% {
+                color: rgb(89, 17, 17);
+            }
+
+            20% {
+                color: rgb(245, 6, 6);
+            }
+
+            30% {
+                color: rgb(21, 246, 239);
+            }
+
+            40% {
+                color: rgb(245, 12, 156);
+            }
+
+            50% {
+                color: white;
+            }
+
+            60% {
+                color: rgb(10, 229, 32);
+            }
+
+            70% {
+                color: yellowgreen;
+            }
+
+            80% {
+                color: greenyellow;
+            }
+
+            90% {
+                color: green
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        #p {
+            height: 1000px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .c {
+
+            height: 100vh;
+            border: 2px solid black;
+            background-color: silver;
+            width: 670px;
+
+        }
+
+        .L {
+            text-align: center;
+
+        }
+
+        label {
+            margin-left: 30px;
+            margin-top: -60px;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            float: right;
+            margin-top: -80px;
+            margin-right: 20px;
+
+        }
+
+        table {
+            height: 234px;
+            width: 600px;
+           
+        }
+
+        input {
+            width: 100px;
+        }
+
+        #LI {
+            width: 670px;
+            height: 300px;
+        }
+
+        .f {
+            height: 40px;
+            background-color: rgb(175, 220, 148);
+        }
+
+        .rz {
+            width: 500px;
+            height: 200px;
+          
+
+        }
+
+        .display {
+            height: 120px;
+            width: 120px;
+            border: 2px solid;
+            float: right;
+            margin-top: -190px;
+            margin-right: 30px;
+        }
+
+        .so {
+            width: 160px;
+            text-align: center;
+        }
+
+        .qw {
+            text-align: center;
+        } 
+        #za{
+            text-align: center;
+        }
+        #zb{
+            text-align: center;
+        }
+        #zc{
+            text-align: center;
+        }
+        #zd{
+            text-align: center;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+
+    <div id="p">
+
+        <div class="c">
+            <h2><b>Intermediate marksheet<b></h2><br>
+
+            <table class="rz" border="1px">
+                <tr>
+                    <td class="so">Name Of Student</td>
+                    <td id="za"></td>
+                </tr>
+
+
+                <tr>
+                    <td class="so">Roll Number</td>
+                    <td id="zb"></td>
+                </tr>
+
+
+                <tr>
+                    <td class="so">Registration n</td>
+                    <td id="zc"></td>
+                </tr>
+
+                <tr>
+                    <td class="so">Father name</td>
+                    <td id="zd"></td>
+                </tr>
+
+
+
+            </table>
+            <div class="display"></div>
+            
+
+
+            <hr>
+            <table border="1px" id="LI">
+                <tr class="f">
+                    <th id="n">Subject Name</th>
+                    <th id="n">Theory</th>
+                    <th id="n">Full marks</th>
+                    <th id="n">Pass marks</th>
+                    <th id="n">Practical</th>
+                    <th id="n">Total mark</th>
+                </tr>
+
+                <tr class="qw">
+
+                    <td class="L">ENGLISH</td>
+
+                    <td id="ra"></td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td></td>
+                    <td id="rb"></td>
+
+
+
+                </tr>
+                <tr class="qw">
+
+                    <td class="L">HINDI</td>
+
+                    <td id="rc"></td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td></td>
+                    <td id="rd"></td>
+
+
+
+                </tr>
+                <tr class="qw">
+
+                    <td class="L">PHYSICS</td>
+
+                    <td id="re"></td>
+                    <td>100</td>
+                    <td>33</td>
+                    <td id="rf"></td>
+                    <td id="rg"></td>
+
+
+
+                </tr>
+                <tr class="qw">
+
+                    <td class="L">CHEMESTRY</td>
+
+                    <td id="rh"></td>
+                    <td>100</td>
+                    <td>33</td>
+                    <td id="ri"></td>
+                    <td id="rj"></td>
+                </tr>
+                <tr class="qw">
+
+                    <td class="L">MATH</td>
+
+                    <td id="rk"></td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td></td>
+                    <td id="rl"></td>
+
+
+
+                </tr>
+                <tr class="qw">
+                    <td class="L">Obtained marks</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                    <td id="rm"></td>
+
+
+                </tr>
+                <tr class="qw">
+                    <td class="L">Division</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                    <td id="rn"></td>
+
+
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+     <script>
+        let h = prompt('Name of student');
+        let i = parseInt(prompt('Roll no of studen'));
+        let j = parseInt(prompt('Registration no'));
+        let k = prompt('Name of father');
+        let a = parseInt(prompt("Marks of English"));
+        let b = parseInt(prompt("Marks of Hindi"));
+        let c = parseInt(prompt("Marks of Physics"));
+        let d = parseInt(prompt("Marks of physics's practical"));
+        let e = parseInt(prompt("Marks of Chemistry"));
+        let f = parseInt(prompt("Marks of Chemistry's practical"));
+        let g = parseInt(prompt("Marks of Math"));
+
+
+
+        document.getElementById('za').innerHTML=h;
+        document.getElementById('zb').innerHTML=i;
+        document.getElementById('zc').innerHTML=j;
+        document.getElementById('zd').innerHTML=k;
+
+        document.getElementById('ra').innerHTML=a;//english marks
+        document.getElementById('rb').innerHTML=a;//english total marks
+        document.getElementById('rc').innerHTML=b;//hindi marks
+        document.getElementById('rd').innerHTML=b;//hindi total
+        document.getElementById('re').innerHTML=c;//phy mar
+        document.getElementById('rf').innerHTML=d;//phy prac
+        document.getElementById('rg').innerHTML=c + d;//phy to
+        document.getElementById('rh').innerHTML=e;//che mark
+        document.getElementById('ri').innerHTML=f;//che prac
+        document.getElementById('rj').innerHTML=e + f;//chem tot
+        document.getElementById('rk').innerHTML=g;//math ma
+        document.getElementById('rl').innerHTML=g;//math to
+        document.getElementById('rm').innerHTML=a + b + c + d + e + f + g;//obtained mar
+        if (a + b + c + d + e + f + g >= 300 && a + b + c + d + e + f + g<=500) {
+            document.getElementById('rn').innerHTML = "first"
+
+
+        }
+        else if (a + b + c + d + e + f + g >= 250 && a + b + c + d + e + f + g<=299) {
+            document.getElementById('rn').innerHTML = "Second"}
+
+        else if (a + b + c + d + e + f + g < 250 && a + b + c + d + e + f + g>=150) {
+            document.getElementById('rn').innerHTML = "Third"
+
+
+        }
+        else if (a + b + c + d + e + f + g <150 && a + b + c + d + e + f + g>=0) {
+            document.getElementById('rn').innerHTML = "Fail"
+
+
+        }
+        else {
+            document.getElementById('rn').innerHTML = "Invalid"
+
+        }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .s {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .k {
+            height: 500px;
+            width: 300px;
+            box-shadow: 3px 4px 6px 4px rebeccapurple;
+            border-radius: 10px;
+            background-color: rgb(38, 214, 214);
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(255, 0, 0);
+            animation: color 5s infinite;
+        }
+
+        @keyframes color {
+            0% {
+                color: black;
+            }
+
+            10% {
+                color: rgb(89, 17, 17);
+            }
+
+            20% {
+                color: rgb(245, 6, 6);
+            }
+
+            30% {
+                color: rgb(21, 246, 239);
+            }
+
+            40% {
+                color: rgb(245, 12, 156);
+            }
+
+            50% {
+                color: white;
+            }
+
+            60% {
+                color: rgb(10, 229, 32);
+            }
+
+            70% {
+                color: yellowgreen;
+            }
+
+            80% {
+                color: greenyellow;
+            }
+
+            90% {
+                color: green
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        input {
+            margin-left: 50px;
+            border: 23px 30px rebeccapurple;
+            border-radius: 10px;
+            height: 25px;
+            background-color: silver;
+        }
+
+        input:hover {
+            background-color: burlywood;
+        }
+
+        label {
+            margin-left: 40px;
+            font-size: 20px;
+            color: rgb(255, 0, 174);
+        }
+
+        button {
+            height: 30px;
+            margin-left: 120px;
+            border-radius: 10px;
+            color: tomato;
+        }
+
+        button:hover {
+            background-color: chartreuse;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="s">
+        <div class="k">
+
+            <h2>Sign up</h2><br><br>
+
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <input type="Number" placeholder="Enter your Mobile number"><br><br>
+
+
+
+            <input type="text" placeholder="Enter your gmail "><br><br>
+
+            <label for="">Select gender</label><br>
+            <input type="radio" name="gender" value="Male" checked> Male <br>
+            <input type="radio" name="gender" value="female" checked> female <br>
+            <input type="radio" name="gender" value="other" checked> other <br><br>
+            <button> <a href="marksheet.html"> Submit</a></button>
+
+        </div>
+    </div>
+</body>
+
+</html>
